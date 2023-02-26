@@ -16,7 +16,7 @@
 
   <p>
     <strong>Picture:</strong>
-    <%= creature.picture %>
+    <%= image_tag(creature.picture_url, width: 600) if creature.picture? %>
   </p>
 
 </div>
